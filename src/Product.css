@@ -1,0 +1,52 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-image: url('https://storage.needpix.com/rsynced_images/blue-1273089_1280.jpg');
+    background-size: cover;
+    background-position: center;
+}
+ 
+form {
+    display: grid;
+    gap: 10px;
+}
+ 
+input[type='text'],
+select,
+input[type='file'],
+button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+ 
+button {
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+ 
+button:hover {
+    background-color: #0056b3;
+}
+ 
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+ 
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+button{
+    background-color: darkgreen;
+}
+ 
