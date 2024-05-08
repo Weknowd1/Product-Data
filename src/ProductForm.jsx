@@ -64,6 +64,7 @@ function ProductForm() {
                     <option value="clothing">Clothing</option>
                     <option value="home_decor">Home Decor</option>
                     <option value="sports_outdoors">Sports & Outdoors</option>
+                    <option value="fashion_outdoors">fashion & Outdoors</option>
                 </select><br /><br />
                 <select name='department' value={formData.department} onChange={handleChange}>
                     <option value="">Select Department</option>
