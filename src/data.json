@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": "87f9",
+      "productName": "vinod",
+      "category": "clothing",
+      "department": "clothing_department",
+      "attachment": "C:\\fakepath\\Screenshot (2).png",
+      "location": "chennai",
+      "captcha": "zncpz6",
+      "captchaInput": "zncpz6"
+    },
+    {
+      "id": "846b",
+      "productName": "weknowd",
+      "category": "electronics",
+      "department": "electronics_department",
+      "attachment": "C:\\fakepath\\Screenshot (3).png",
+      "location": "chennai",
+      "captcha": "c95nyg",
+      "captchaInput": "c95nyg"
+    }
+  ]
+}

@@ -23,6 +23,17 @@ function ProductForm() {
             const { captcha, captchaInput, ...formDataWithoutCaptcha } = formData;
             const formDataJSON = JSON.stringify(formDataWithoutCaptcha, null, 2);
             setSubmittedData(formDataJSON);
+            if (Object.keys(validateForm).length === 0) {
+                fetch('http://localhost:3000/users', {
+                  method: 'POST',
+                  headers: {
+                    'Content-Type': 'application/json',
+                  },
+                  body: JSON.stringify(formData),
+                })
+                  .then(response => response.json())
+                  .then(data => {
+                    console.log('Success:', data)})};
             setFormData({
                 productName: "",
                 category: "",
@@ -33,6 +44,7 @@ function ProductForm() {
                 captchaInput: ""
             });
             generateCaptcha();
+            console.log(formDataJSON);
         } else {
             console.log("Please fill all required fields and enter the correct captcha.");
         }
